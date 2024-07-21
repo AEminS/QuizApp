@@ -1,0 +1,50 @@
+.question-container {
+    margin: 20px 0;
+}
+
+.countdown {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.answer-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.answer-table th,
+.answer-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.progress {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.uk-radio-label {
+    display: block;
+    padding: 10px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: not-allowed;
+}
+
+.uk-radio-label input {
+    margin-right: 10px;
+}
+
+.uk-radio-label.editable {
+    cursor: pointer;
+    background: #e0e0e0;
+}
+
+.start-button-container {
+    text-align: center;
+    margin-top: 50px;
+}

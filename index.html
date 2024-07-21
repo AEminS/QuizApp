@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./uikit/uikit.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="uk-container">
+        <div class="start-button-container" id="start-button-container">
+            <button class="uk-button uk-button-secondary" onclick="startQuiz()">Are you ready to start the quiz?</button>
+        </div>
+        <div class="countdown" id="timer" style="display: none;">30</div>
+        <div class="progress" id="progress"></div>
+        <div class="question-container" id="quiz"></div>
+    </div>
+
+    <script src="./uikit/uikit.min.js"></script>
+    <script src="./uikit/uikit-icons.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
